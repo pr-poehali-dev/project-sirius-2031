@@ -40,8 +40,7 @@ export function ContactSection() {
             </div>
 
             <div className="space-y-5 md:space-y-8">
-              <a
-                href="tel:+79001234567"
+              <div
                 className={`group block transition-all duration-700 ${
                   isVisible ? "translate-x-0 opacity-100" : "-translate-x-16 opacity-0"
                 }`}
@@ -51,26 +50,13 @@ export function ContactSection() {
                   <Icon name="Phone" size={12} className="text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Телефон</span>
                 </div>
-                <p className="text-base text-foreground transition-colors group-hover:text-foreground/70 md:text-2xl">
-                  +7 (900) 123-45-67
-                </p>
-              </a>
-
-              <a
-                href="mailto:info@renttech.ru"
-                className={`group block transition-all duration-700 ${
-                  isVisible ? "translate-x-0 opacity-100" : "-translate-x-16 opacity-0"
-                }`}
-                style={{ transitionDelay: "300ms" }}
-              >
-                <div className="mb-1 flex items-center gap-2">
-                  <Icon name="Mail" size={12} className="text-foreground/60" />
-                  <span className="font-mono text-xs text-foreground/60">Email</span>
-                </div>
-                <p className="text-base text-foreground transition-colors group-hover:text-foreground/70 md:text-2xl">
-                  info@renttech.ru
-                </p>
-              </a>
+                <a href="tel:+79787448340" className="block text-base text-foreground transition-colors hover:text-foreground/70 md:text-2xl">
+                  +7 (978) 744-83-40
+                </a>
+                <a href="tel:+79790303536" className="block text-base text-foreground transition-colors hover:text-foreground/70 md:text-xl">
+                  +7 (979) 030-35-36
+                </a>
+              </div>
 
               <div
                 className={`transition-all duration-700 ${
@@ -80,10 +66,9 @@ export function ContactSection() {
               >
                 <div className="mb-1 flex items-center gap-2">
                   <Icon name="MapPin" size={12} className="text-foreground/60" />
-                  <span className="font-mono text-xs text-foreground/60">Где забрать технику</span>
+                  <span className="font-mono text-xs text-foreground/60">Где забрать оборудование</span>
                 </div>
-                <p className="text-base text-foreground md:text-2xl">Москва, ул. Складская, 12</p>
-                <p className="mt-1 font-mono text-xs text-foreground/50">Пн–Пт 08:00–20:00, Сб–Вс 09:00–18:00</p>
+                <p className="text-base text-foreground md:text-2xl">ул. Тараса Шевченко, 16</p>
               </div>
 
               <div

@@ -6,10 +6,10 @@ import type { DateRange } from "react-day-picker"
 import Icon from "@/components/ui/icon"
 
 const equipmentList = [
-  "Экскаватор CAT 320",
-  "Автокран Liebherr LTM 1050",
-  "Бульдозер Komatsu D65",
-  "Телескопический погрузчик JCB 540-200",
+  "Моющий пылесос Flybot",
+  "Пароочиститель Kärcher SC 2",
+  "Робот-мойщик окон",
+  "Строительный пылесос Karcher KWD 3",
 ]
 
 export function BookingSection() {

@@ -18,11 +18,11 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               }`}
             >
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
-                Надёжная
+                Чистота
                 <br />
-                техника
+                без лишних
                 <br />
-                <span className="text-foreground/40">в любой момент</span>
+                <span className="text-foreground/40">затрат</span>
               </h2>
             </div>
 
@@ -33,19 +33,19 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Мы предоставляем строительную и специализированную технику в аренду для частных лиц, подрядчиков и крупных организаций.
+                «Чисть САМ» — сервис аренды профессионального уборочного оборудования для дома, офиса и ремонта.
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Весь парк регулярно обслуживается — вы получаете технику в идеальном состоянии с гарантией готовности к работе.
+                Всё оборудование в отличном состоянии, готово к работе. Забирайте сами или обсудите доставку.
               </p>
             </div>
           </div>
 
           <div className="flex flex-col justify-center space-y-6 md:space-y-12">
             {[
-              { value: "50+", label: "Единиц техники", sublabel: "В постоянном парке", direction: "right" },
-              { value: "5", label: "Лет на рынке", sublabel: "Опыта и надёжности", direction: "left" },
-              { value: "300+", label: "Клиентов", sublabel: "Довольных арендаторов", direction: "right" },
+              { value: "4", label: "Вида техники", sublabel: "В постоянном парке", direction: "right" },
+              { value: "от 425₽", label: "В сутки", sublabel: "Доступные цены", direction: "left" },
+              { value: "100%", label: "Рабочая техника", sublabel: "Готова к использованию", direction: "right" },
             ].map((stat, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {
